@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="Logo.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ArduinoIdeeën.nl</title>
+</head>
+<body>
+<header>
+    <div class="banner">
+        <h1>💡 Arduinoideeën.nl 💡</h1>
+    </div>
+</header>
+
+<nav>
+    <input type="radio" id="tab1" name="tabs" checked>
+    <label for="tab1" onclick="showTab('content-tab1')">Project 1</label>
+
+    <input type="radio" id="tab2" name="tabs">
+    <label for="tab2" onclick="showTab('content-tab2')">Project 2</label>
+
+    <input type="radio" id="tab3" name="tabs">
+    <label for="tab3" onclick="showTab('content-tab3')">Project 3</label>
+
+    <input type="radio" id="tab4" name="tabs">
+    <label for="tab4" onclick="showTab('content-tab4')">Project 4</label>
+
+    <input type="radio" id="tab5" name="tabs">
+    <label for="tab5" onclick="showTab('content-tab5')">Project 5</label>
+
+    <input type="radio" id="tab6" name="tabs">
+    <label for="tab6" onclick="showTab('content-tab6')">Archief</label>
+
+    <input type="radio" id="tab7" name="tabs">
+    <label for="tab7" onclick="showTab('content-tab7')">ArduinoIdeeën.nl</label>
+
+</nav>
+
+<div class="tab-content" id="content-tab1">
+    <h2>Piano met buzzer</h2>
+    <img src="Foto1.png" alt="Project Afbeelding">
+    <p class="bordered-text">Dit project omvat een Arduino met 3 drukknoppen en een buzzer. Elke knop is toegewezen aan een muzieknoot, en wanneer je een knop indrukt, speelt de buzzer de overeenkomstige toon. Het resultaat is een eenvoudige, interactieve piano. Je kunt verschillende melodieën spelen door op de knoppen te drukken, waardoor het een leuke en educatieve introductie is tot het gebruik van drukknoppen en het aansturen van een buzzer.</p>
+    <a href="Bestand1.txt" class="download-button" download>Code</a>
+    <h2>Benodigheden</h2>
+    <ol>
+        <li>Arduino Board (1 stuk)</li>
+        <li>Breadboard (1 stuk)</li>
+        <li>Jumper wires (10 stuks)</li>
+        <li>Buzzer (1 stuk)</li>
+        <li>Weerstand 240 ohm (4 stuks)</li>
+        <li>knopen (3 stuks)</li>
+        <li>Laptop met software (1 stuk)</li>
+    </ol>
+
+
+
+    <a>Alle benodigheden zijn verkrijgbaar in 1 pakket. </a>
+    <a href="https://store.arduino.cc/?_gl=1*15941uz*_ga*MTc2Nzg3ODQwMS4xNzAwNDI0ODg5*_ga_NEXN8H46L5*MTcwNTIzNDE5OS44LjEuMTcwNTIzNDIyMi4wLjAuMA..*_fplc*NGVQRjZQREJuYyUyRk5hT0ZKS2lCR0luVyUyQjZBRWM1ZzZjTWJSNXk3RlFVJTJGSDY4aE8zN2FoNzBIWENkRXRFckZJQ1Q4TWRBUkJ5YzRHODVwOTVNVEVLeDUwY3NOVWxvWXJSWFA3dUtpaVdhJTJCVXM0bVNTaW16V0FxMHJHZ0VZVnclM0QlM0Q." target="_blank">Klik hier</a>
+</div>
+
+<div class="tab-content" id="content-tab2">
+    <h2>Servo motor besturen</h2>
+    <img src="Foto2.png" alt="Project Afbeelding">
+    <p class="bordered-text">Dit project demonstreert de besturing van een servo motor met behulp van Arduino. Door de code aan te passen, kun je de positie van de servo variëren. Het is een hands-on ervaring om de basisprincipes van het besturen van motoren te begrijpen. Dit kan worden toegepast in projecten zoals robotica, waar bewegingscontrole essentieel is.</p>
+    <a href="Bestand2.txt" class="download-button" download target="_blank">Code</a>
+    <h2>Benodigheden</h2>
+    <ol>
+        <li>Arduino Board (1 stuk)</li>
+        <li>Breadboard (1 stuk)</li>
+        <li>Jumper wires (10 stuks)</li>
+        <li>servo (1 stuk)</li>
+        <li>Laptop met software (1 stuk)</li>
+    </ol>
+    <a>Alle benodigheden zijn verkrijgbaar in 1 pakket. </a>
+    <a href="https://store.arduino.cc/?_gl=1*15941uz*_ga*MTc2Nzg3ODQwMS4xNzAwNDI0ODg5*_ga_NEXN8H46L5*MTcwNTIzNDE5OS44LjEuMTcwNTIzNDIyMi4wLjAuMA..*_fplc*NGVQRjZQREJuYyUyRk5hT0ZKS2lCR0luVyUyQjZBRWM1ZzZjTWJSNXk3RlFVJTJGSDY4aE8zN2FoNzBIWENkRXRFckZJQ1Q4TWRBUkJ5YzRHODVwOTVNVEVLeDUwY3NOVWxvWXJSWFA3dUtpaVdhJTJCVXM0bVNTaW16V0FxMHJHZ0VZVnclM0QlM0Q." target="_blank">Klik hier</a>
+</div>
+
+<div class="tab-content" id="content-tab3">
+    <h2>LCD scherm</h2>
+    <img src="Foto3.png" alt="Project Afbeelding">
+    <p class="bordered-text">Met een Arduino en een 16x2 LCD-scherm kun je teksten weergeven die je via de code kunt aanpassen. Dit is handig voor het maken van eenvoudige informatiepanelen of het weergeven van variabele gegevens in real-time. De aanpasbaarheid van de code geeft je de vrijheid om de weergegeven tekst te personaliseren.</p>
+    <a href="Bestand3.txt" class="download-button" download target="_blank">Code</a>
+    <h2>Benodigheden</h2>
+    <ol>
+        <li>Arduino Board (1 stuk)</li>
+        <li>Breadboard (1 stuk)</li>
+        <li>Jumper wires (5 stuks)</li>
+        <li>16*2 LCD scherm (1 stuk)</li>
+        <li>Laptop met software (1 stuk)</li>
+    </ol>
+    <a>Alle benodigheden zijn verkrijgbaar in 1 pakket. </a>
+    <a href="https://store.arduino.cc/?_gl=1*15941uz*_ga*MTc2Nzg3ODQwMS4xNzAwNDI0ODg5*_ga_NEXN8H46L5*MTcwNTIzNDE5OS44LjEuMTcwNTIzNDIyMi4wLjAuMA..*_fplc*NGVQRjZQREJuYyUyRk5hT0ZKS2lCR0luVyUyQjZBRWM1ZzZjTWJSNXk3RlFVJTJGSDY4aE8zN2FoNzBIWENkRXRFckZJQ1Q4TWRBUkJ5YzRHODVwOTVNVEVLeDUwY3NOVWxvWXJSWFA3dUtpaVdhJTJCVXM0bVNTaW16V0FxMHJHZ0VZVnclM0QlM0Q." target="_blank">Klik hier</a>
+</div>
+
+<div class="tab-content" id="content-tab4">
+    <h2>3 buzzers</h2>
+    <img src="Foto4.png" alt="Project Afbeelding">
+    <p class="bordered-text">Dit project omvat 3 buzzers die samen een harmonieuze melodie creëren. De code is aanpasbaar, waardoor je de tonen en de duur van elke toon kunt wijzigen. Het biedt een speelse en creatieve manier om geluiden te genereren en geeft inzicht in het programmeren van verschillende tonen.</p>
+    <a href="Bestand4.txt" class="download-button" download target="_blank">Code</a>
+    <h2>Benodigheden</h2>
+    <ol>
+        <li>Arduino Board (1 stuk)</li>
+        <li>Breadboard (1 stuk)</li>
+        <li>Jumper wires (10 stuks)</li>
+        <li>Buzzer (3 stuks)</li>
+        <li>Resistors 220 ohm (3 stuks)</li>
+        <li>Knop (1 stuk)</li>
+        <li>Laptop met software (1 stuk)</li>
+    </ol>
+    <a>Alle benodigheden zijn verkrijgbaar in 1 pakket. </a>
+    <a href="https://store.arduino.cc/?_gl=1*15941uz*_ga*MTc2Nzg3ODQwMS4xNzAwNDI0ODg5*_ga_NEXN8H46L5*MTcwNTIzNDE5OS44LjEuMTcwNTIzNDIyMi4wLjAuMA..*_fplc*NGVQRjZQREJuYyUyRk5hT0ZKS2lCR0luVyUyQjZBRWM1ZzZjTWJSNXk3RlFVJTJGSDY4aE8zN2FoNzBIWENkRXRFckZJQ1Q4TWRBUkJ5YzRHODVwOTVNVEVLeDUwY3NOVWxvWXJSWFA3dUtpaVdhJTJCVXM0bVNTaW16V0FxMHJHZ0VZVnclM0QlM0Q." target="_blank">Klik hier</a>
+</div>
+
+<div class="tab-content" id="content-tab5">
+    <h2>Ultra sonic sensor</h2>
+    <img src="Foto5.png" alt="Project Afbeelding">
+    <p class="bordered-text">Met een afstandssensor en Arduino kun je nauwkeurig de afstand meten tot een object. Dit project biedt een praktische toepassing van sensorgegevens en is geschikt voor projecten waarbij afstandsbewaking cruciaal is, zoals automatische deuren, robotnavigatie of veiligheidssystemen. De gemeten afstand wordt weergegeven op de seriële monitor van Arduino.</p>
+    <a href="Bestand5.txt" class="download-button" download target="_blank">Code</a>
+    <h2>Benodigheden</h2>
+    <ol>
+        <li>Arduino Board (1 stuk)</li>
+        <li>Breadboard (1 stuk)</li>
+        <li>Jumper wires (5 stuks)</li>
+        <li>Afstand sensor (1 stuk)</li>
+        <li>Laptop met software (1 stuk)</li>
+    </ol>
+    <a>Alle benodigheden zijn verkrijgbaar in 1 pakket. </a>
+    <a href="https://store.arduino.cc/?_gl=1*15941uz*_ga*MTc2Nzg3ODQwMS4xNzAwNDI0ODg5*_ga_NEXN8H46L5*MTcwNTIzNDE5OS44LjEuMTcwNTIzNDIyMi4wLjAuMA..*_fplc*NGVQRjZQREJuYyUyRk5hT0ZKS2lCR0luVyUyQjZBRWM1ZzZjTWJSNXk3RlFVJTJGSDY4aE8zN2FoNzBIWENkRXRFckZJQ1Q4TWRBUkJ5YzRHODVwOTVNVEVLeDUwY3NOVWxvWXJSWFA3dUtpaVdhJTJCVXM0bVNTaW16V0FxMHJHZ0VZVnclM0QlM0Q." target="_blank">Klik hier</a>
+</div>
+
+<div class="tab-content" id="content-tab6">
+    <h2>Archief</h2>
+    <p>Dit is het archief. Elke week worden de projecten vervangen door nieuwe projecten. Hier zie je alle projecten die dan weg zijn.</p>
+    <h3>*Er is hier nog niks te zien*</h3>
+</div>
+
+
+
+<div class="tab-content" id="content-tab7">
+    <div class="tab-content-container">
+        <div class="text-container">
+            <h2>ArduinoIdeeën.nl</h2>
+            <p2>Welkom op Arduinoideeën.nl. De site voor al je Arduino projecten. Elk tabblad op deze website heeft één project.</p2>
+            <p> Dat project bevat de: code, benodigdhedenlijst en een afbeelding.</p>
+        </div>
+        <img src="LogoFoto.png" alt="Logo Foto" class="logo-image">
+    </div>
+</div>
+
+<footer>
+    &copy; 2024 ArduinoIdeeën.nl | Gemaakt door Casper
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

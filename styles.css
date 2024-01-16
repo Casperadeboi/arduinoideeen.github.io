@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: dodge rblue;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: deepskyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    padding: 10px 20px;
+    background-color: darkslategray;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    background-color: steelblue;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input[type="radio"]:checked ~ .tab-content {
+    display: block;
+}
+
+h2 {
+    color: midnightblue;
+}
+
+p {
+    color: black;
+    line-height: 1.6;
+}
+p2 {
+    color: black;
+    line-height: 5;
+}
+
+
+.download-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 6px 12px;
+    margin: 0,5em 0;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #2980B9;
+    color: white;
+}
+
+
+
+.bordered-text {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.tab-content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+}
+
+.logo-image {
+    max-width: 100%;
+    height: auto;
+}
+h3 {
+    color: red;
+}
